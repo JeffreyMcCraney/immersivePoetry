@@ -1,0 +1,219 @@
+#content {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#intro{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+  min-height: 700px;
+}
+
+#intro img{
+  height: 30px;
+  margin-top: 100px;
+}
+
+.header{
+	color:white;
+	margin-top: 200px;
+	font-family: 'Cedarville Cursive', cursive;
+}
+
+.header h1{
+	font-size: 80px;
+}
+
+.mobileExperience{
+  visibility: hidden;
+  color: white;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+}
+
+#black{
+  background-color: black;
+  min-height: 100%;
+  height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+}
+
+#fire{
+  background: url(../img/fire-min.jpeg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+  min-height: 700px;
+
+}
+
+#grad {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, #272727); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, #272727); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, #272727); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, #272727); /* Standard syntax */
+    height: 200px;
+}
+
+#grad2 {
+    background: #272727; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#272727, #E8E8E8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#272727, #E8E8E8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#272727, #E8E8E8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#272727, #E8E8E8); /* Standard syntax */
+    height: 200px;
+}
+
+#grad3 {
+    background: #E8E8E8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#E8E8E8, #E3E7F0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#E8E8E8, #E3E7F0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#E8E8E8, #E3E7F0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#E8E8E8, #E3E7F0); /* Standard syntax */
+    height: 50px;
+}
+
+#footer {
+  background-color: black;
+  min-height: 900px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+}
+
+.footerLogo{
+	color: #fff;
+	font-size: 80px;
+	margin-top: 300px;
+  font-family: 'Cinzel', serif;
+}
+
+#footerLogo{
+    margin-top: 300px;
+}
+
+.footerNumber{
+	color: #fff;
+	margin-top:50px;
+  font-size: 16px;
+  font-family: 'Cinzel', serif;
+}
+
+.footerAuthor{
+	color: #fff;
+	margin-top: 100px;
+  font-size: 16px;
+  font-family: 'Cinzel', serif;
+}
+
+#coffin{
+  background-color: #E8E8E8;
+  min-height: 700px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+}
+
+#coffin img{
+	height: 600px;
+	padding-top: 100px;
+}
+
+#ice{
+  background: url(../img/ice2.jpeg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+  min-height: 1000px;
+}
+
+.white{
+	margin-top: 150px;
+	color:white;
+	font-size: 60px;
+	font-family: 'Cedarville Cursive', cursive;
+}
+
+.blackText{
+	margin-top: 150px;
+	color:black;
+	font-size: 60px;
+	font-family: 'Cedarville Cursive', cursive;
+}
+
+.fadeInBlock {
+    opacity:0;
+}
+
+.endingLine{
+  margin-bottom: 150px;
+}
+
+
+#returnLink{
+  padding-top: 100px;
+}
+
+#returnLink a{
+  color: white;
+}
+
+
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../img/fire.jpeg) no-repeat;
+    background-size: cover; 
+}
+
+
+@media screen and (max-device-width: 800px) {
+    #bgvid {
+        display: none;
+    }
+
+    #intro{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  min-height: 700px;
+  background: url(../img/videoHolder.png) no-repeat center center; 
+}
+
+  #coffin .blackText {
+    font-size: 50px;
+  }
+
+  .mobileExperience{
+    visibility: visible;
+  }
+
+  #intro img{
+  margin-top: 30px;
+}
+
+}
+

@@ -1,0 +1,76 @@
+header{
+	background-color: white;
+	color: black;
+	font-size: 30px;
+	font-family:'Dosis', sans-serif;
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+header p{
+	padding-top: 30px;
+}
+
+#poems{
+	background-color: #F6F6F6;
+	color: black;
+	font-family: 'Dosis', sans-serif;
+	padding-bottom: 60px;
+}
+
+#poems h2{
+	padding-top: 70px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 22px;
+	color: black;
+}
+
+#poems img{
+	max-height: 300px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #fff;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+  transition: border-color .8s ease;
+  padd
+}
+
+#poems img:hover{
+	border-color: gray;
+}
+
+#about{
+	background-color: white;
+	padding-top: 60px;
+}
+
+#about p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 22px;
+	padding-top: 10px;
+}
+
+#about img{
+	height: 100px;
+}
+
+#mobileView{
+	visibility: hidden;
+}
+
+@media screen and (max-device-width: 800px) {
+    
+  #mobileView{
+  	padding-top: 20px;
+    visibility: visible;
+  }
+
+}
+
+
+
+
+
